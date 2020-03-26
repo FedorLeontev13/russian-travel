@@ -1,0 +1,23 @@
+
+@media (max-width : 375px) {
+    .place__url-heading {
+        visibility: hidden;
+    }
+}
+
+@media (max-width : 320px) {
+    .place__url-heading {
+        visibility: hidden;
+    }
+}
+
+.place__url-heading {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    color: #AAAAAA;
+    margin: 0;
+    padding: 0;
+}

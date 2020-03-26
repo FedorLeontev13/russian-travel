@@ -1,0 +1,32 @@
+@media (max-width : 1024px) {
+    .place__website {
+        width: 456px;
+        margin-top: 102px;
+    }
+}
+
+@media (max-width : 768px) {
+    .place__website {
+        width: 352px;
+        margin-top: 58px;
+    }
+}
+
+@media (max-width : 375px) {
+    .place__website {
+        visibility: hidden;
+    }
+}
+
+@media (max-width : 320px) {
+    .place__website {
+        visibility: hidden;
+    }
+}
+
+
+.place__website {
+    width: 484px;
+    height: 46px;
+    margin-top: 87px;
+}

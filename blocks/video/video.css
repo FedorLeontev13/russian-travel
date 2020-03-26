@@ -1,0 +1,38 @@
+@import url("./__container/video__container.css");
+
+@media (max-width : 1024px) {
+    .video {
+        width: 928px;
+        height: 614px;
+    }
+}
+
+@media (max-width : 768px) {
+    .video {
+        width: 720px;
+        height: 442px;
+    }
+}
+
+@media (max-width : 375px) {
+    .video {
+        width: 343px;
+        height: 598px;
+        margin-bottom: 64px;
+    }
+}
+
+@media (max-width : 320px) {
+    .video {
+        width: 288px;
+        height: 616px;
+        margin-bottom: 64px;
+    }
+}
+
+.video {
+    width: 1184px;
+    height: 648px;
+    margin-bottom: 102px;
+    margin-top: 102px 
+}

@@ -1,0 +1,32 @@
+@import url("./__author/comment__author.css");
+@import url("./__quote/comment__quote.css");
+@import url("./__image/comment__image.css");
+
+@media (max-width : 1024px) {
+    .comment {
+        width: 288px;
+    }
+}
+
+@media (max-width : 375px) {
+    .comment {
+        width: 343px;
+    }
+}
+
+@media (max-width : 320px) {
+    .comment {
+        width: 382px;
+    }
+}
+
+.comment {
+    width: 382px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+

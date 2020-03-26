@@ -1,0 +1,44 @@
+@import url("./__text_bold/intro__text_bold.css");
+
+@media (max-width : 1024px) {
+    .intro__text {
+        max-width: 383px;
+    }
+}
+
+@media (max-width : 768px) {
+    .intro__text {
+        max-width: 720px;
+    }
+}
+
+@media (max-width : 375px) {
+    .intro__text {
+        max-width: 343px;
+        height: 96px;
+        font-size: 12px;
+        line-height: 19px;
+        margin-top: 32px;
+    }
+}
+
+@media (max-width : 320px) {
+    .intro__text {
+        max-width: 288px;
+        height: 96px;
+        font-size: 12px;
+        line-height: 19px;
+        margin-top: 32px;
+    }
+}
+
+.intro__text {
+    list-style-type: none;
+    max-width: 383px;
+    height: 93px;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 24px;
+    padding: 0;
+}

@@ -1,0 +1,37 @@
+@media (max-width : 1024px) {
+    .video__container_item {
+        width: 456px;
+        height: 288px;  
+    }
+}
+
+@media (max-width : 768px) {
+    .video__container_item {
+        width: 352px;
+        height: 200px;  
+    }
+}
+
+@media (max-width : 375px) {
+    .video__container_item {
+        width: 343px;
+        height: 200px; 
+    }
+}
+
+@media (max-width : 320px) {
+    .video__container_item {
+        width: 288px;
+        height: 192px;  
+    }
+}
+
+.video__container_item {
+    width: 583px;
+    height: 323px;  
+}
+
+.video__container_item:hover {
+    opacity: .5;
+    transition: opacity 5s ease-in;
+}

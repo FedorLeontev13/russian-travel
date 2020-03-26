@@ -1,0 +1,23 @@
+
+@media (max-width : 375px) {
+    .footer__list-item {
+        display: flex;
+        flex-direction: column;
+        margin-right: 32px;
+    }
+}
+
+@media (max-width : 320px) {
+    .footer__list-item {
+        display: flex;
+        flex-direction: column;
+        margin-right: 32px;
+    }
+}
+
+.footer__list-item {
+    list-style-type: none;
+    display:inline-block;
+    margin-right: 18px;
+    padding: 0;
+}

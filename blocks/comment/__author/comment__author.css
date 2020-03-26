@@ -1,0 +1,39 @@
+@media (max-width : 1024px) {
+    .comment__author {
+        max-width: 296px;
+        height: 16px;
+    }
+}
+
+@media (max-width : 768px) {
+    .comment__author {
+        z-index: 1;
+    }
+}
+
+@media (max-width : 375px) {
+    .comment__author {
+        max-width: 343px;
+        height: 16px;
+        z-index: 1;
+    }
+}
+
+@media (max-width : 320px) {
+    .comment__author {
+        max-width: 288px;
+        height: 16px;
+        z-index: 1;
+    }
+}
+
+.comment__author {
+    max-width: 382px;
+    height: 13px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+}
