@@ -1,7 +1,6 @@
 @media (max-width : 1024px) {
     .cover__title {
         max-width: 965px;
-        height: 65px;
         margin: 211px auto 171px;
     }
 }
@@ -9,7 +8,6 @@
 @media (max-width : 768px) {
     .cover__title {
         max-width: 720px;
-        height: 170px;
         margin: 165px auto 45px;
     }
 }
@@ -17,7 +15,6 @@
 @media (max-width : 375px) {
     .cover__title {
         max-width: 343px;
-        height: 80px;
         font-size: 32px;
         line-height: 35px;
         margin: 104px auto 7px;
@@ -27,7 +24,6 @@
 @media (max-width : 320px) {
     .cover__title {
         max-width: 288px;
-        height: 72px;
         font-size: 32px;
         line-height: 35px;
         margin: 64px auto 7px;
@@ -36,7 +32,6 @@
 
 .cover__title {
     max-width: 1094px;
-    height: 69px;;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;

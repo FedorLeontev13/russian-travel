@@ -6,21 +6,18 @@
 @media (max-width : 1024px) {
     .lead {
         width: 928px;
-        height: 955px
     }
 }
 
 @media (max-width : 768px) {
     .lead {
         width: 768px;
-        height: 821px;
     }
 }
 
 @media (max-width : 375px) {
     .lead {
         width: 391px;
-        height: 412px;
         margin-bottom: 64px;
     }
 }
@@ -28,14 +25,12 @@
 @media (max-width : 320px) {
     .lead {
         width: 320px;
-        height: 413px;
         margin-bottom: 64px;
     }
 }
 
 .lead {
     width: 985px;
-    height: 950px;
     display: grid;
     justify-items: center;
     padding: 0;

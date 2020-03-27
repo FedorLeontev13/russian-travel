@@ -1,21 +1,18 @@
 @media (max-width : 1024px) {
     .intro__content-row {
         width: 692px;
-        height: 160px;
     }
 }
 
 @media (max-width : 768px) {
     .intro__content-row {
         width: 720px;
-        height: 167px;
     }
 }
 
 @media (max-width : 375px) {
     .intro__content-row {
         width: 343px;
-        height: 461px;
         margin-top: 32px;
         font-size: 16px;
         line-height: 27px;
@@ -25,7 +22,6 @@
 @media (max-width : 320px) {
     .intro__content-row {
         width: 288px;
-        height: 543px;
         margin-top: 32px;
         font-size: 16px;
         line-height: 169.43%;
@@ -34,7 +30,6 @@
 
 .intro__content-row {
     width: 683px;
-    height: 154px;
     margin-top: 48px;
     font-style: normal;
     font-weight: normal;

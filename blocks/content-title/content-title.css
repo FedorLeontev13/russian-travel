@@ -1,14 +1,12 @@
 @media (max-width : 1024px) {
     .content-title {
         max-width: 928px;
-        height: 147px;
     }
 }
 
 @media (max-width : 768px) {
     .content-title {
         max-width: 720px;
-        height: 104px;
         font-size: 42px;
         line-height: 46px;
         margin: 0 auto 24px;
@@ -18,7 +16,6 @@
 @media (max-width : 375px) {
     .content-title {
         max-width: 343px;
-        height: 80px;
         font-size: 32px;
         line-height: 35px;
         margin: 0 auto 16px;
@@ -28,7 +25,6 @@
 @media (max-width : 320px) {
     .content-title {
         max-width: 288px;
-        height: 112px;
         font-size: 32px;
         line-height: 35px;
         margin: 0 auto 16px;
@@ -37,7 +33,6 @@
 
 .content-title {
     max-width: 800px;
-    height: 147px;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;

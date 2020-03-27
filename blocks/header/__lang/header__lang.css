@@ -2,7 +2,6 @@
 
 @media (max-width : 375px) {
     .header__lang {
-        height: 18px;
         font-size: 18px;
         line-height: 96.82%;
     }
@@ -10,7 +9,6 @@
 
 @media (max-width : 320px) {
     .header__lang {
-        height: 18px;
         font-size: 18px;
         line-height: 17px;
     }
@@ -18,7 +16,6 @@
 
 .header__lang {
     max-width: 30px;
-    height: 23px;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;

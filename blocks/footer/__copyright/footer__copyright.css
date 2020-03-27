@@ -8,20 +8,17 @@
 
 @media (max-width : 375px) {
     .footer__copyright {
-        height: 21px;
     }
 }
 
 @media (max-width : 320px) {
     .footer__copyright {
         width: 183px;
-        height: 21px;
     }
 }
 
 .footer__copyright {
     width: 282px;
-    height: 13px;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;

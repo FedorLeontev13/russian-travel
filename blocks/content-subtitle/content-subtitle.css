@@ -8,7 +8,6 @@
 @media (max-width : 375px) {
     .content-subtitle {
         max-width: 343px;
-        height: 70px;
         font-size: 16px;
         line-height: 23px;
         margin: 0 auto 24px;
@@ -18,7 +17,6 @@
 @media (max-width : 320px) {
     .content-subtitle {
         max-width: 288px;
-        height: 72px;
         font-size: 16px;
         line-height: 23px;
         margin: 0 auto 24px;
@@ -27,7 +25,6 @@
 
 .content-subtitle {
     max-width: 640px;
-    height: 58px;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;

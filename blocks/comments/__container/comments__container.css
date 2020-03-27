@@ -1,14 +1,12 @@
 @media (max-width : 1024px) {
     .comments__container {
         width: 925px;
-        height: 339px;
     }
 }
 
 @media (max-width : 768px) {
     .comments__container {
         width: 382px;
-        height: 806px;
         display: flex;
         flex-direction: column;
     }
@@ -17,7 +15,6 @@
 @media (max-width : 375px) {
     .comments__container {
         width: 343px;
-        height: 881px;
         display: flex;
         flex-direction: column;
     }
@@ -26,7 +23,6 @@
 @media (max-width : 320px) {
     .comments__container {
         width: 288px;
-        height: 904px;
         display: flex;
         flex-direction: column;
     }
@@ -34,7 +30,6 @@
 
 .comments__container {
     width: 1184px;
-    height: 283px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }

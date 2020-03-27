@@ -6,14 +6,12 @@
 @media (max-width : 1024px) {
     .cover {
         width: 1045px;
-        height: 562px;
     }
 }
 
 @media (max-width : 768px) {
     .cover {
         width: 768px;
-        height: 500px;
         margin-bottom: 102px;
     }
 }
@@ -21,7 +19,6 @@
 @media (max-width : 375px) {
     .cover {
         width: 375px;
-        height: 272px;
         margin-bottom: 64px;
     }
 }
@@ -29,14 +26,12 @@
 @media (max-width : 320px) {
     .cover {
         width: 320px;
-        height: 216px;
         margin-bottom: 64px;
     }
 }
 
 .cover {
     width: 1184px;
-    height: 594px;
     z-index: 0;
     margin-bottom: 160px;
 }
