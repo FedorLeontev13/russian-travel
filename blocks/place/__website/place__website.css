@@ -1,14 +1,12 @@
 @media (max-width : 1024px) {
     .place__website {
         width: 456px;
-        margin-top: 102px;
     }
 }
 
 @media (max-width : 768px) {
     .place__website {
         width: 352px;
-        margin-top: 58px;
     }
 }
 
@@ -27,5 +25,7 @@
 
 .place__website {
     width: 484px;
-    margin-top: 87px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }

@@ -1,0 +1,34 @@
+@media (max-width : 1024px) {
+    .place__heading {
+        grid-gap: 32px;
+    }
+}
+
+@media (max-width : 768px) {
+    .place__heading {
+        grid-gap: 28px;
+    }
+}
+
+@media (max-width : 375px) {
+    .place__heading {
+        grid-template-columns: 1fr;
+        grid-gap: 24px;
+    }
+}
+
+@media (max-width : 320px) {
+    .place__heading {
+        grid-template-columns: 1fr;
+        grid-gap: 24px;
+    }
+}
+
+.place__heading {
+    display: grid;
+    margin: 0;
+    padding: 0;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 40px;
+}

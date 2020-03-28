@@ -1,39 +1,43 @@
+@import url("./__heading/place__heading.css");
+@import url("./__content/place__content.css");
 @import url("./__title/place__title.css");
-@import url("./_one-column/place_one-column.css");
 @import url("./__website/place__website.css");
-@import url("./__website/_one-column/place__website_one-column.css");
 @import url("./__url-heading/place__url-heading.css");
 @import url("./__url/place__url.css");
 @import url("./__image/place__image.css");
-@import url("./__image/_one-column/place__image_one-column.css");
 @import url("./__paragraphs/place__paragraphs.css");
 @import url("./__paragraph/place__paragraph.css");
 
 @media (max-width : 1024px) {
     .place {
         width: 928px;
-        grid-template-columns: 440px 456px;
-        grid-template-rows: 148px 440px;
-        grid-row-gap: 32px;
+        margin-bottom: 72px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 440px;
+        grid-row-gap: 40px;
     }
 }
 
 @media (max-width : 768px) {
     .place {
         width: 720px;
-        grid-template-columns: 340px 352px;
-        grid-template-rows: 104px 340px;
-        grid-row-gap: 28px;
+        margin-bottom: 72px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-row-gap: 40px;
     }
 }
 
 @media (max-width : 375px) {
     .place {
-        width: 375px;
+        width: 343px;
         margin-bottom: 48px;
+        display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 40px 375px 190px 244px;
-        grid-gap: 24px;
+        grid-template-rows: 1fr 375px 1fr 1fr;
+        grid-row-gap: 24px;
     }
 }
 
@@ -41,9 +45,10 @@
     .place {
         width: 320px;
         margin-bottom: 48px;
+        display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 40px 320px 163px 353px;
-        grid-gap: 24px;
+        grid-template-rows: 1fr 320px 1fr 1fr;
+        grid-row-gap: 24px;
     }
 }
 
@@ -51,11 +56,12 @@
     width: 984px;
     margin-bottom: 72px;
     display: grid;
-    grid-template-columns: 460px 484px;
-    grid-template-rows: 133px 460px;
-    grid-column-gap: 40px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 460px;
     grid-row-gap: 60px;
 }
+
+
 
 
 
