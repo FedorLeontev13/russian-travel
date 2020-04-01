@@ -1,9 +1,25 @@
 
+
+
+.footer__list-item {
+    list-style-type: none;
+    display:inline-block;
+    margin-right: 18px;
+    padding: 0;
+}
+
+@media (max-width : 768px) {
+    .footer__list-item {
+        margin-right: 18px;
+    }
+}
+
+
 @media (max-width : 375px) {
     .footer__list-item {
         display: flex;
         flex-direction: column;
-        margin-right: 32px;
+        margin-bottom: 24px;
     }
 }
 
@@ -11,13 +27,6 @@
     .footer__list-item {
         display: flex;
         flex-direction: column;
-        margin-right: 32px;
+        margin-left: 16px;
     }
-}
-
-.footer__list-item {
-    list-style-type: none;
-    display:inline-block;
-    margin-right: 18px;
-    padding: 0;
 }

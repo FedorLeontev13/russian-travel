@@ -1,16 +1,3 @@
-
-@media (max-width : 375px) {
-    .place__url {
-        visibility: hidden;
-    }
-}
-
-@media (max-width : 320px) {
-    .place__url {
-        visibility: hidden;
-    }
-}
-
 .place__url {
     font-style: normal;
     font-weight: normal;
@@ -25,5 +12,18 @@
 
 .place__url:hover {
     opacity: .5;
-    transition: opacity 5s ease-in;
+    transition: opacity .3s ease-in;
+}
+
+
+@media (max-width : 375px) {
+    .place__url {
+        visibility: hidden;
+    }
+}
+
+@media (max-width : 320px) {
+    .place__url {
+        visibility: hidden;
+    }
 }

@@ -1,4 +1,16 @@
-@import url("./__lang-under/header__lang-under.css");
+@import url("./__lang_selected/header__lang_selected.css");
+
+.header__lang {
+    max-width: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 23px;
+    justify-self: right;
+    display: inline;
+    color: white;
+    text-decoration: none;
+}
 
 @media (max-width : 375px) {
     .header__lang {
@@ -12,13 +24,4 @@
         font-size: 18px;
         line-height: 17px;
     }
-}
-
-.header__lang {
-    max-width: 30px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 23px;
-    justify-self: right;
 }

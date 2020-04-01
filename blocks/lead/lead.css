@@ -3,6 +3,14 @@
 @import url("./__image/lead__image.css");
 @import url("./__caption/lead__caption.css");
 
+.lead {
+    width: 985px;
+    display: grid;
+    justify-items: center;
+    padding: 0;
+    margin-bottom: 80px;
+}
+
 @media (max-width : 1024px) {
     .lead {
         width: 928px;
@@ -28,16 +36,6 @@
         margin-bottom: 64px;
     }
 }
-
-.lead {
-    width: 985px;
-    display: grid;
-    justify-items: center;
-    padding: 0;
-    margin-bottom: 80px;
-}
-
-
 
 
 

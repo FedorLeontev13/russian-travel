@@ -1,20 +1,27 @@
+.place__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+@media (max-width : 768px) {
+    .place__content {
+        justify-content: space-between;
+    }
+}
 
 @media (max-width : 375px) {
     .place__content {
         flex-direction: column;
-        justify-content: start;
+        align-items: center;
     }
 }
 
 @media (max-width : 320px) {
     .place__content {
         flex-direction: column;
-        justify-content: start;
+        align-items: flex-start;
+        
     }
-}
-
-.place__content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }

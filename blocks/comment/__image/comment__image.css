@@ -1,12 +1,14 @@
-@media (max-width : 1024px) {
-    .comment__image {
-        margin-bottom: 40px;
-    }
+.comment__image {
+    width: 97px;
+    border-radius: 50%;
 }
 
 @media (max-width : 768px) {
     .comment__image {
+        margin-top: 48px;
         margin-bottom: 16px;
+        align-self: center;
+        order: 0;
     }
 }
 
@@ -20,10 +22,4 @@
     .comment__image {
         margin-bottom: 16px;
     }
-}
-
-.comment__image {
-    width: 97px;
-    margin-bottom: 42px;
-    border-radius: 50%;
 }

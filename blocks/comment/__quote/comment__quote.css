@@ -1,7 +1,19 @@
+.comment__quote {
+    max-width: 382px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 42px 0 24px;
+    padding: 0;
+    color: white;
+}
+
 @media (max-width : 1024px) {
     .comment__quote {
         max-width: 296px;
-        margin: 0 0 16px
+        margin: 40px 0 16px;
+        z-index: 0;
     }
 }
 
@@ -10,7 +22,7 @@
         font-size: 16px;
         line-height: 23px;
         margin: 24px 0 0;
-        z-index: 0;
+        order: 2;
     }
 }
 
@@ -31,16 +43,6 @@
         line-height: 23px;
         margin: 24px 0 0;
         z-index: 0;
+        align-self: center;
     }
-}
-
-.comment__quote {
-    max-width: 382px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    margin: 0 0 24px;
-    padding: 0;
-    color: #E5E5E5;
 }

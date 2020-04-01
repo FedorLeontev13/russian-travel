@@ -1,6 +1,19 @@
 @import url("./__lang/header__lang.css");
-@import url("./__lang/__lang-under/header__lang-under.css");
+@import url("./__lang/__lang_selected/header__lang_selected.css");
 @import url("./__logo/header__logo.css");
+@import url("./__list-item/header__list-item.css");
+
+
+.header {
+    margin-top: 30px;
+    margin-bottom: 48px;
+    width: 1184px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
 
 @media (max-width : 1024px) {
     .header {
@@ -20,8 +33,6 @@
     .header {
         margin-top: 16px;
         width: 343px;
-        height: 42px;
-        grid-gap: 16px;
     }
     
 }
@@ -30,20 +41,6 @@
     .header {
         margin-top: 16px;
         width: 288px;
-        height: 42px;
-        grid-gap: 16px;
     }
 }
 
-.header {
-    position: relative;
-    margin-top: 30px;
-    margin-bottom: 48px;
-    width: 1184px;
-    height: 52px;
-    display: grid;
-    grid-template-columns: 30px 30px;
-    justify-content: end;
-    grid-gap: 18px;
-    padding: 0;
-}

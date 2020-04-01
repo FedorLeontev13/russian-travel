@@ -1,5 +1,10 @@
 @import url("./__container/comments__container.css");
 
+.comments {
+    width: 1184px;
+    margin-bottom: 102px;
+}
+
 @media (max-width : 1024px) {
     .comments {
         width: 928px;
@@ -24,9 +29,4 @@
         width: 288px;
         margin-bottom: 64px;
     }
-}
-
-.comments {
-    width: 1184px;
-    margin-bottom: 102px;
 }

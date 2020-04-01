@@ -2,6 +2,14 @@
 @import url("./__quote/comment__quote.css");
 @import url("./__image/comment__image.css");
 
+
+
+.comment {
+    width: 382px;
+    display: flex;
+    flex-direction: column;
+}
+
 @media (max-width : 1024px) {
     .comment {
         width: 288px;
@@ -19,14 +27,6 @@
         width: 382px;
     }
 }
-
-.comment {
-    width: 382px;
-    display: flex;
-    flex-direction: column;
-}
-
-
 
 
 

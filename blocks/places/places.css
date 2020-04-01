@@ -1,3 +1,7 @@
+.places {
+    width: 984px;
+}
+
 @media (max-width : 1024px) {
     .places {
         width: 928px;
@@ -20,8 +24,4 @@
     .places {
         width: 320px;
     }
-}
-
-.places {
-    width: 984px;
 }

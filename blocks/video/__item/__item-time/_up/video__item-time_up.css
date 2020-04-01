@@ -1,0 +1,32 @@
+.video__item-time_up {
+    position: absolute;
+    left: 30px;
+    bottom: 146px;
+}
+
+@media (max-width : 1024px) {
+    .video__item-time_up {
+        bottom: 151px;
+    }
+}
+
+@media (max-width : 768px) {
+    .video__item-time_up {
+        left: 24px;
+        top: 82px;
+    }
+}
+
+@media (max-width : 375px) {
+    .video__item-time_up {
+        left: 24px;
+        top: 82px;
+    }
+}
+
+@media (max-width : 320px) {
+    .video__item-time_up {
+        left: 16px;
+        top: 80px;
+    }
+}

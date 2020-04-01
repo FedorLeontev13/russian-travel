@@ -1,7 +1,12 @@
 @import url("./__bg/cover__bg.css");
-@import url("./__overlay/cover__overlay.css");
 @import url("./__title/cover__title.css");
 @import url("./__subtitle/cover__subtitle.css");
+
+.cover {
+    width: 1184px;
+    z-index: 0;
+    margin-bottom: 160px;
+}
 
 @media (max-width : 1024px) {
     .cover {
@@ -11,7 +16,7 @@
 
 @media (max-width : 768px) {
     .cover {
-        width: 768px;
+        width: 100%;
         margin-bottom: 102px;
     }
 }
@@ -29,13 +34,6 @@
         margin-bottom: 64px;
     }
 }
-
-.cover {
-    width: 1184px;
-    z-index: 0;
-    margin-bottom: 160px;
-}
-
 
 
 

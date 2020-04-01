@@ -1,19 +1,35 @@
+@import url("./__item/photo-grid__item.css");
+
+
+.photo-grid {
+    margin-top: 102px;
+    width: 1184px;
+    display: grid;
+    grid-template-columns: repeat(4, 284px);
+    grid-template-rows: repeat(3, 188px);
+    grid-gap: 16px;
+    margin-bottom: 92px;
+}
+
 @media (max-width : 1024px) {
     .photo-grid {
         width: 928px;
-        grid-template-columns: repeat(3, 300px);
-        grid-template-rows: repeat(4, 200px);
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
         margin-bottom: 102px;
+        grid-gap: 14px;
     }
 }
 
 @media (max-width : 768px) {
     .photo-grid {
-        margin-top: 97px;
+        justify-content: center;
         width: 720px;
-        grid-template-columns: repeat(2, 352px);
-        grid-template-rows: repeat(6, 234px);
-        margin-bottom: 102px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-gap: 16px;
+        margin: 97px auto 102px;
     }
 }
 
@@ -38,12 +54,3 @@
     }
 }
 
-.photo-grid {
-    margin-top: 102px;
-    width: 1184px;
-    display: grid;
-    grid-template-columns: repeat(4, 284px);
-    grid-template-rows: repeat(3, 188px);
-    grid-gap: 16px;
-    margin-bottom: 92px;
-}

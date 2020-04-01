@@ -1,8 +1,16 @@
 @import url("./__container/video__container.css");
+@import url("./__item/__item.css");
+
+.video {
+    width: 1184px;
+    margin-bottom: 102px;
+    margin-top: 102px;
+}
 
 @media (max-width : 1024px) {
     .video {
         width: 928px;
+        
     }
 }
 
@@ -16,6 +24,7 @@
     .video {
         width: 343px;
         margin-bottom: 64px;
+        margin-top: 40px;
     }
 }
 
@@ -24,10 +33,4 @@
         width: 288px;
         margin-bottom: 64px;
     }
-}
-
-.video {
-    width: 1184px;
-    margin-bottom: 102px;
-    margin-top: 102px 
 }
